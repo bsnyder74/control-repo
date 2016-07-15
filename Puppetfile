@@ -1,16 +1,19 @@
 forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
-mod "puppetlabs/apache",      '1.10.0'
-mod "puppetlabs/aws",         '1.4.0'
-mod "puppetlabs/concat",      '2.2.0'
-mod "puppetlabs/haproxy",     '1.5.0'
-mod "puppetlabs/inifile",     '1.5.0'
-mod "puppetlabs/motd",        '1.4.0'
-mod "puppetlabs/mysql",       '3.8.0'
-mod "puppetlabs/ntp",         '4.2.0'
-mod "puppetlabs/puppet_agent" '1.2.0'
-mod "puppetlabs/stdlib",      '4.12.0'
+mod "puppetlabs/apache",       '1.10.0'
+mod "puppetlabs/aws",          '1.4.0'
+mod "puppetlabs/concat",       '2.2.0'
+mod "puppetlabs/firewall",     '1.8.1'
+mod "puppetlabs/haproxy",      '1.5.0'
+mod "puppetlabs/inifile",      '1.5.0'
+mod "puppetlabs/motd",         '1.4.0'
+mod "puppetlabs/mysql",        '3.8.0'
+mod "puppetlabs/ntp",          '4.2.0'
+mod "puppetlabs/postgresql",   '4.7.1'
+mod "puppetlabs/puppet_agent", '1.2.0'
+mod "puppetlabs/puppetdb",     '5.1.2'
+mod "puppetlabs/stdlib",       '4.12.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
