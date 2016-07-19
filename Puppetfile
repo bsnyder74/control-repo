@@ -1,6 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
+# Approved Modules
 mod "puppetlabs/apache",       '1.10.0'
 mod "puppetlabs/aws",          '1.4.0'
 mod "puppetlabs/concat",       '2.2.0'
@@ -14,6 +15,9 @@ mod "puppetlabs/postgresql",   '4.7.1'
 mod "puppetlabs/puppet_agent", '1.2.0'
 mod "puppetlabs/puppetdb",     '5.1.2'
 mod "puppetlabs/stdlib",       '4.12.0'
+
+# Other Forge moudles
+mod "crayfishx/firewalld",     '2.2.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
