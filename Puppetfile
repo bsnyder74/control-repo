@@ -16,7 +16,7 @@ mod "puppetlabs/puppet_agent", '1.2.0'
 mod "puppetlabs/puppetdb",     '5.1.2'
 mod "puppetlabs/stdlib",       '4.12.0'
 
-# Other Forge moudles
+# Other Forge Modules
 mod "crayfishx/firewalld",     '2.2.0'
 
 # Modules from Git
