@@ -4,17 +4,19 @@ class profile::pdb {
     listen_addresses => '*'
   }
 
-  firewalld_port {'5432 postgresql':
+  firewalld_rich_rule {'5432 postgresql':
     ensure   => present,
     zone     => 'public',
     port     => 5432,
     protocol => 'tcp',
+    action   => 'accept',
   }
 
-  firewalld_port {'8081 puppetdb':
+  firewalld_rich_rule {'8081 puppetdb':
     ensure   => present,
     zone     => 'public',
     port     => 8081,
     protocol => 'tcp',
+    action   => 'accept',
   }
 }
