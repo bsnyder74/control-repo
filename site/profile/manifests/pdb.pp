@@ -10,7 +10,7 @@ class profile::pdb {
     port     => {
       'port'     => 5432,
       'protocol' => 'tcp',
-    }
+    },
     action   => 'accept',
   }
 
