@@ -7,8 +7,10 @@ class profile::pdb {
   firewalld_rich_rule {'5432 postgresql':
     ensure   => present,
     zone     => 'public',
-    port     => 5432,
-    protocol => 'tcp',
+    port     => {
+      'port'     => 5432,
+      'protocol' => 'tcp',
+    }
     action   => 'accept',
   }
 
