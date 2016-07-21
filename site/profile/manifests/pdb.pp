@@ -17,8 +17,10 @@ class profile::pdb {
   firewalld_rich_rule {'8081 puppetdb':
     ensure   => present,
     zone     => 'public',
-    port     => 8081,
-    protocol => 'tcp',
+    port     => {
+      'port'     => 80801,
+      'protocol' => 'tcp',
+    },
     action   => 'accept',
   }
 }
